@@ -1,0 +1,112 @@
+body {
+	background: #d9d9d9;
+}
+
+content {
+	margin: 0px 150px 150px 150px;
+	background-color: white;
+	padding: 0px 10px 30px 10px;
+	clear: both;
+	display: block;
+}
+
+header {
+	position: relative;
+	overflow: visible;
+	clear: both;
+}
+
+header>h1 {
+	transform: rotate(-30deg);
+	display: inline-block;
+	vertical-align: middle;
+}
+
+button {
+	color: white;
+	position: absolute;
+	right: 0px;
+	top: 60px;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	width: 145px;
+	height: 23px;
+}
+
+#new {
+	background-color: #00bfff;
+	vertical-align: middle;
+	height: auto;
+}
+
+section #outline {
+	float: right;
+}
+
+ul {
+	vertical-align: middle;
+	list-style: none;
+	padding-left: 0px;
+	display: inline-block;
+}
+
+li {
+	background-color: #cce6ff;
+	padding: 2.5px 10px;
+	width: 232px;
+	height: 75px;
+	margin: 0px 0px 5px 0px;
+	position: relative;
+	font-weight: bold;
+}
+
+li.state {
+	background-color: #8fa5f0;
+	color: white;
+	font-size: 2.0em;
+	line-height: 70px;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-left: 10px;
+	height: 70px;
+}
+
+div {
+	width: inherit;
+	height: 16px;
+	font-weight: normal;
+	font-size: 0.8em;
+	float: left;
+	overflow: auto;
+}
+
+div.list {
+	height: auto;
+	display: inline-block;
+}
+
+#DOING, #DONE {
+	margin-left: 5px;
+}
+
+p {
+	font-size: 1.2em;
+	font-weight: bold;
+	width: inherit;
+	height: 21px;
+	overflow: auto;
+}
+
+#next {
+	position: absolute;
+	top: 50px;
+	right: 5px;
+	cursor: pointer;
+}
+
+footer {
+	height: 30px;
+	background-color: black;
+	clear: both;
+}

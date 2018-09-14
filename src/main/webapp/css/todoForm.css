@@ -1,0 +1,41 @@
+body {
+  background: #d9d9d9;
+}
+
+form {
+  margin: 0px 150px 150px 150px;
+  background-color: white;
+  padding: 5px 260px;
+}
+
+header {
+  text-align: center;
+}
+
+span {
+  color: gray;
+  font-size: 1.1em;
+}
+
+#before {
+  display: inline-block;
+  background-color: #ffffff;
+  margin-right: 115px;
+  1position: absolute;
+  width: 100px;
+  height: 30px;
+  border-style: solid;
+}
+
+#submit, #reset {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  background-color: #00bfff;
+  color: #ffffff;
+  border-style: none;
+}
+
+footer {
+  margin: 60px 0px 0px 0px;
+}
